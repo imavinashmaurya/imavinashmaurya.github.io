@@ -1227,6 +1227,7 @@ header .logo a {
 	font-size: 1.5rem;
 	position: absolute;
 	top: 100%;
+	border-radius: 50px;
 	left: 0;
 }
 
@@ -2637,7 +2638,26 @@ footer .copyright span:last-child::after {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #transparent;
+  border: 5px
+  border-radius:15px;
+  border-color:#F1F1F1;
+}
+
+.round {
+  border-radius: 15px;
+  border: 2px solid #EBEBEB;
+  padding: 20px;  
+}
+.round2 {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #EBEBEB;
+  background-color: #EBEBEB;
+  padding: 10px;  
+}
+.round2:hover {
+  background-color: #EBEBEB;
 }
 .column {
   float: left;
@@ -2757,9 +2777,9 @@ footer .copyright span:last-child::after {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f1f1f1;
+  border: medium solid #EBEBEB;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f1f1f1;
+  border-color: transparent transparent transparent #EBEBEB;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -2771,9 +2791,9 @@ footer .copyright span:last-child::after {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #EBEBEB;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f1f1f1 transparent transparent;
+  border-color: transparent #EBEBEB transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -2783,10 +2803,12 @@ footer .copyright span:last-child::after {
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
-  background-color: #f1f1f1;
+  padding: 50px;
+  background-color: transparent;
   position: relative;
+  border-width: 5px;
   border-radius: 6px;
+  border-color: #f1f1f1
 }
 
 * {
@@ -2825,3 +2847,4 @@ footer .copyright span:last-child::after {
   left: 0%;
   }
 }
+
