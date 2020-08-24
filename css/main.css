@@ -2650,6 +2650,7 @@ footer .copyright span:last-child::after {
   padding: 20px;  
 }
 .round2 {
+	color:#118be4;
   text-align: center;
   border-radius: 25px;
   border: 2px solid #EBEBEB;
@@ -2668,6 +2669,7 @@ footer .copyright span:last-child::after {
 .padding-bottom-smed
 {
     padding-bottom: 30px;
+	padding-right: 10px;
 }
 @media screen and (max-width: 767px)
 {
