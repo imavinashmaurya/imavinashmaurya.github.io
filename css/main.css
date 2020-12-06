@@ -2848,5 +2848,12 @@ footer .copyright span:last-child::after {
   .right {
   left: 0%;
   }
+
+  .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 }
 
